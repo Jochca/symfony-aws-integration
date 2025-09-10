@@ -1,0 +1,4 @@
+# inside app/
+app/var/
+app/vendor/
+app/.env.local
