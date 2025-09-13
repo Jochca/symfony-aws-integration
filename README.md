@@ -101,8 +101,11 @@ AWS_BUCKET_NAME=symfony-aws-integration
 
 ## 🛠️ Upcoming: RDS Integration
 
-_TODO_: Show how to set up RDS PostgreSQL, and connect from Symfony via Doctrine.
+This project is configured to use **Amazon RDS (PostgreSQL)** as its primary database in production.
 
+- Database endpoint: `<your-rds-endpoint>.rds.amazonaws.com`
+- Connection established via Symfony `DATABASE_URL`
+- Verified via `bin/console doctrine:database:create` command
 ---
 
 ## 📌 Roadmap
